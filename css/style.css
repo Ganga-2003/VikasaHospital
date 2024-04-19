@@ -99,23 +99,6 @@
 .hero-header {
     background: url(../img/hero.jpg) top right no-repeat;
     background-size: cover;
-    height: 83vh;
-}
-
-@media (max-width: 768px) {
-    .hero-header {
-        background-position: center;
-        height: 60vh;
-        width: 100%;
-    }
-}
-
-@media (max-width: 576px) {
-    .hero-header {
-        background-position: center;
-        height: 350px;
-        width: 100%;
-    }
 }
 
 .service-item {
