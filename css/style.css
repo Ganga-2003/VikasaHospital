@@ -106,9 +106,7 @@
     .hero-header {
         background-position: center;
         height: 60vh;
-    }
-    .hero-text{
-        margin-top: 0px;
+        width: 100%;
     }
 }
 
@@ -117,9 +115,6 @@
         background-position: center;
         height: 350px;
         width: 100%;
-    }
-    .hero-text{
-        margin-top: 0px;
     }
 }
 
