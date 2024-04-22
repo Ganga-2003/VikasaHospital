@@ -11,6 +11,23 @@
     transition: .5s;
 }
 
+@media (min-width: 576px) {
+    .button {
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 991px) {
+    .hero-header {
+        margin-bottom: 0; /* Remove bottom margin */
+    }
+
+    .container-fluid.py-5 {
+        padding-top: 3rem !important; /* Adjust padding top for about section */
+    }
+}
+
+
 .btn:hover {
     -webkit-box-shadow: 0 8px 6px -6px #555555;
     -moz-box-shadow: 0 8px 6px -6px #555555;
@@ -96,27 +113,9 @@
     }
 }
 
-/* Base styles for .hero-header */
 .hero-header {
     background: url(../img/hero.jpg) top right no-repeat;
     background-size: cover;
-    height: 83vh; /* You might want to adjust this for smaller devices if 83vh is too tall */
-}
-
-/* Styles for screens that are wider than 768px (e.g., tablets in portrait mode, laptops, and desktops) */
-@media (min-width: 768px) {
-    .hero-header {
-        /* You can modify or add styles for larger screens here if necessary */
-    }
-}
-
-/* Styles for screens that are narrower than 768px (e.g., mobile phones) */
-@media (max-width: 767px) {
-    .hero-header {
-        /* Adjustments for mobile devices */
-        background-position: center center; /* Change background position for better mobile display */
-        height: 50vh; /* You might want to make the hero smaller on mobile devices */
-    }
 }
 
 .service-item {
